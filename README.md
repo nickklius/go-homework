@@ -1,5 +1,4 @@
 # go-homework
-=================
 
 A REST-service created to help Petya get his homework done
 
