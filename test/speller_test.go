@@ -35,7 +35,7 @@ func TestSpeller(t *testing.T) {
 }
 
 func readTestData(fileName string) []string {
-	file, err := os.OpenFile(fileName, os.O_RDWR, 0644)
+	file, err := os.OpenFile(fileName, os.O_RDONLY, 0644)
 	if err != nil {
 		log.Fatal(err)
 	}
